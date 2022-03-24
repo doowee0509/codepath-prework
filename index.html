@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Hello!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <audio
+      id="sound1"
+      src="https://cdn.glitch.global/3c6c8283-d75a-41d1-9acb-eba45d026d7e/key_drop1.wav?v=1648064247180"
+    ></audio>
+    <audio
+      id="sound2"
+      src="https://cdn.glitch.global/3c6c8283-d75a-41d1-9acb-eba45d026d7e/electric-static.wav?v=1648068389258"
+    ></audio>
+    <audio
+      id="sound3"
+      src="https://cdn.glitch.global/3c6c8283-d75a-41d1-9acb-eba45d026d7e/door_creak1.wav?v=1648064252067"
+    ></audio>
+    <audio
+      id="sound4"
+      src="https://cdn.glitch.global/3c6c8283-d75a-41d1-9acb-eba45d026d7e/cranking_1.wav?v=1648064254557"
+    ></audio>
+    <audio
+      id="sound5"
+      src="https://cdn.glitch.global/3c6c8283-d75a-41d1-9acb-eba45d026d7e/crumbling_paper1.wav?v=1648064258132"
+    ></audio>
+    <audio
+      id="sound6"
+      src="https://cdn.glitch.global/3c6c8283-d75a-41d1-9acb-eba45d026d7e/brushing_carpet.wav?v=1648064261400"
+    ></audio>
+    <audio
+      id="sound7"
+      src="https://cdn.glitch.global/3c6c8283-d75a-41d1-9acb-eba45d026d7e/bicycle_pump.wav?v=1648064263805"
+    ></audio>
+    <audio
+      id="sound8"
+      src="https://cdn.glitch.global/3c6c8283-d75a-41d1-9acb-eba45d026d7e/dishwasher_1.wav?v=1648068270947"
+    ></audio>
+
+    <h1>Light and Sound Memory Game</h1>
+    <p>
+      Welcome to the game! Repeat back the pattern by pressing buttons. You will
+      have 30 seconds to repeat the pattern after it finish playing.
+    </p>
+
+    <button id="startBtn" onclick="startGame()">Start</button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">Stop</button>
+    <div id="bodyBox">
+      <div id="headerBox">
+        <h2>Tries: <span id="numStrikes">3</span></h2>
+        <h2 id="highscore">Highscore: <span id="score">8</span></h2>
+        <h2>Timer: <span id="clock">30</span></h2>
+      </div>
+
+      <div id="gameButtonArea">
+        <button
+          id="button1"
+          onclick="guess(1)"
+          onmousedown="playSound(0)"
+          onmouseup="pauseSound(0)"
+        ></button>
+        <button
+          id="button2"
+          onclick="guess(2)"
+          onmousedown="playSound(1)"
+          onmouseup="pauseSound(1)"
+        ></button>
+        <button
+          id="button3"
+          onclick="guess(3)"
+          onmousedown="playSound(2)"
+          onmouseup="pauseSound(2)"
+        ></button>
+        <button
+          id="button4"
+          onclick="guess(4)"
+          onmousedown="playSound(3)"
+          onmouseup="pauseSound(3)"
+        ></button>
+        <button
+          id="button5"
+          onclick="guess(5)"
+          onmousedown="playSound(4)"
+          onmouseup="pauseSound(4)"
+        ></button>
+        <button
+          id="button6"
+          onclick="guess(6)"
+          onmousedown="playSound(5)"
+          onmouseup="pauseSound(5)"
+        ></button>
+        <button
+          id="button7"
+          onclick="guess(7)"
+          onmousedown="playSound(6)"
+          onmouseup="pauseSound(6)"
+        ></button>
+        <button
+          id="button8"
+          onclick="guess(8)"
+          onmousedown="playSound(7)"
+          onmouseup="pauseSound(7)"
+        ></button>
+      </div>
+    </div>
+  </body>
+</html>
