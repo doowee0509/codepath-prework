@@ -12,33 +12,33 @@ Link to project: [https://glitch.com/edit/#!/bedecked-incongruous-horn](https://
 
 The following **required** functionality is complete:
 
-- [x] Game interface has a heading (h1 tag), a line of body text (p tag), and four buttons that match the demo app
-- [x] "Start" button toggles between "Start" and "Stop" when clicked.
-- [x] Game buttons each light up and play a sound when clicked.
-- [x] Computer plays back sequence of clues including sound and visual cue for each button
-- [x] Play progresses to the next turn (the user gets the next step in the pattern) after a correct guess.
-- [x] User wins the game after guessing a complete pattern
-- [x] User loses the game after an incorrect guess
+- [✓] Game interface has a heading (h1 tag), a line of body text (p tag), and four buttons that match the demo app
+- [✓] "Start" button toggles between "Start" and "Stop" when clicked.
+- [✓] Game buttons each light up and play a sound when clicked.
+- [✓] Computer plays back sequence of clues including sound and visual cue for each button
+- [✓] Play progresses to the next turn (the user gets the next step in the pattern) after a correct guess.
+- [✓] User wins the game after guessing a complete pattern
+- [✓] User loses the game after an incorrect guess
 
 The following **optional** features are implemented:
 
-- [x] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
-- [x] Buttons use a pitch (frequency) other than the ones in the tutorial
-- [x] More than 4 functional game buttons
-- [x] Playback speeds up on each turn
-- [x] Computer picks a different pattern each time the game is played
-- [x] Player only loses after 3 mistakes (instead of on the first mistake)
-- [x] Game button appearance change goes beyond color (e.g. add an image)
-- [x] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
-- [x] User has a limited amount of time to enter their guess on each turn
+- [✓] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
+- [✓] Buttons use a pitch (frequency) other than the ones in the tutorial
+- [✓] More than 4 functional game buttons
+- [✓] Playback speeds up on each turn
+- [✓] Computer picks a different pattern each time the game is played
+- [✓] Player only loses after 3 mistakes (instead of on the first mistake)
+- [✓] Game button appearance change goes beyond color (e.g. add an image)
+- [✓] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
+- [✓] User has a limited amount of time to enter their guess on each turn
 
 The following **additional** features are implemented:
 
 - [1] Implemented styling so that the buttons stays as 2 rows even when the page have enough width to fit more than 4 buttons on 1 row.
 - [2] Center everything in the middle of the page.
 - [3] Added box shadow to the buttons to help the user knows which one they're clicking on.
-- [4] Added a high score option when the game is won for players who want to play further than 8 element.
-- [5] Allow player to change the number of buttons, time limit and number of strikes they get. 
+- [4] Added a high score option when the game is won for players who want to play further than 8 sounds pattern.
+- [5] Allows player to change the number of buttons they can play with, also the amount of time they have to make the guess and the amount of tries they have before they lose the game.
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
@@ -46,7 +46,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 ![](https://i.imgur.com/rRMAsCe.gif)
 ![](https://i.imgur.com/lMGlDDB.gif)
 ![](https://i.imgur.com/PCX8ZlJ.gif)
-
+![](https://i.imgur.com/N6t1IdZ.gif)
 ## Reflection Questions
 
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here.
@@ -64,11 +64,11 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 - Some questions I have about web development after completing this submission are: Do you need to be creative to be successful as a web developer? Does web development care about time complexity? Does web development use data structure and algorithms? Are there more languages you need to know besides HTML, CSS, and JS? What's the typical workday of a web developer like? Who decides on a web's UI, are you supposed to come up with it or is there a certain look and layout that you have to follow? Does web developers have to take care of the security of the websites they created?
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words)
-- If I had a few more hours to work on this project I would spend them cleaning up the game, making it smoother and also add new features to the game. A bug that I have right now is that the sounds playing can be overlapped when the player makes the guess while the pattern is playing. This could cause the next pattern to play while the current pattern hasn't finished playing if the player guesses the current pattern correctly before it finishes playing. Some way that I thought of . Another feature that I would like to add is to let the user choose the number of buttons or the amount of time that they're allowed to make their guess. This would allow them to change the difficulty of the game as they see fit. 
+- If I had a few more hours to work on this project I would spend them cleaning up the game, making it smoother and also add new features to the game. A bug that I have right now is that the sounds playing can be overlapped when the player makes the guess while the pattern is playing. This could cause the next pattern to play while the current pattern hasn't finished playing if the player guesses the current pattern correctly before it finishes playing. A few solutions that I thought of to resolve this problem was to either make the player wait until the pattern finishes playing, or stop the pattern from playing and start the guessing timer the moment that the player click on one of the button before the pattern finishes playing. A feature that I would like to add is to let the user upload and use their own sound audio or edit the colors of the button as they see fit, rather than playing with the original audio of the game.
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](https://www.loom.com/share/9925b40c1b8a47db9e07d44930bacb9f)
+[My 5-minute Interview Recording](your-link-here)
 
 ## License
 
