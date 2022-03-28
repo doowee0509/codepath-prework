@@ -49,12 +49,12 @@
 
     <h1>Light and Sound Memory Game</h1>
     <p>
-      Welcome to the game! Repeat back the pattern by pressing buttons. You will
-      have 30 seconds to repeat the pattern after it finish playing.
+      Welcome to the game! Repeat back the pattern by pressing buttons. 
     </p>
 
     <button id="startBtn" onclick="startGame()">Start</button>
     <button id="stopBtn" class="hidden" onclick="stopGame()">Stop</button>
+    <button id="changeBtn" onclick="modify()">Change Mode</button>
     <div id="bodyBox">
       <div id="headerBox">
         <h2>Tries: <span id="numStrikes">3</span></h2>
@@ -63,54 +63,6 @@
       </div>
 
       <div id="gameButtonArea">
-        <button
-          id="button1"
-          onclick="guess(1)"
-          onmousedown="playSound(0)"
-          onmouseup="pauseSound(0)"
-        ></button>
-        <button
-          id="button2"
-          onclick="guess(2)"
-          onmousedown="playSound(1)"
-          onmouseup="pauseSound(1)"
-        ></button>
-        <button
-          id="button3"
-          onclick="guess(3)"
-          onmousedown="playSound(2)"
-          onmouseup="pauseSound(2)"
-        ></button>
-        <button
-          id="button4"
-          onclick="guess(4)"
-          onmousedown="playSound(3)"
-          onmouseup="pauseSound(3)"
-        ></button>
-        <button
-          id="button5"
-          onclick="guess(5)"
-          onmousedown="playSound(4)"
-          onmouseup="pauseSound(4)"
-        ></button>
-        <button
-          id="button6"
-          onclick="guess(6)"
-          onmousedown="playSound(5)"
-          onmouseup="pauseSound(5)"
-        ></button>
-        <button
-          id="button7"
-          onclick="guess(7)"
-          onmousedown="playSound(6)"
-          onmouseup="pauseSound(6)"
-        ></button>
-        <button
-          id="button8"
-          onclick="guess(8)"
-          onmousedown="playSound(7)"
-          onmouseup="pauseSound(7)"
-        ></button>
       </div>
     </div>
   </body>
