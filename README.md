@@ -4,7 +4,7 @@
 
 Submitted by: **Duy Nguyen**
 
-Time spent: **10** hours spent in total
+Time spent: **12** hours spent in total
 
 Link to project: [https://glitch.com/edit/#!/bedecked-incongruous-horn](https://glitch.com/edit/#!/bedecked-incongruous-horn)
 
@@ -38,7 +38,7 @@ The following **additional** features are implemented:
 - [2] Center everything in the middle of the page.
 - [3] Added box shadow to the buttons to help the user knows which one they're clicking on.
 - [4] Added a high score option when the game is won for players who want to play further than 8 element.
-
+- [5] Allow player to change the number of buttons, time limit and number of strikes they get. 
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
@@ -64,7 +64,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 - Some questions I have about web development after completing this submission are: Do you need to be creative to be successful as a web developer? Does web development care about time complexity? Does web development use data structure and algorithms? Are there more languages you need to know besides HTML, CSS, and JS? What's the typical workday of a web developer like? Who decides on a web's UI, are you supposed to come up with it or is there a certain look and layout that you have to follow? Does web developers have to take care of the security of the websites they created?
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words)
-- If I had a few more hours to work on this project I would spend them fixing a few bugs and implementing new features. A bug that I have right now is that the sounds playing can be overlapped when the player makes the guess while the pattern is playing. This could cause the next pattern to play while the current pattern hasn't finished playing if the player guesses the current pattern correctly before it finishes playing. This led to one of the additional features I want to add and that is if the player makes a guess at any time before the pattern finishes playing, the pattern would stop playing and the timer would start. Another feature that I would like to add is to let the user choose the number of buttons or the amount of time that they're allowed to make their guess. This would allow them to change the difficulty of the game as they see fit. 
+- If I had a few more hours to work on this project I would spend them cleaning up the game, making it smoother and also add new features to the game. A bug that I have right now is that the sounds playing can be overlapped when the player makes the guess while the pattern is playing. This could cause the next pattern to play while the current pattern hasn't finished playing if the player guesses the current pattern correctly before it finishes playing. Some way that I thought of . Another feature that I would like to add is to let the user choose the number of buttons or the amount of time that they're allowed to make their guess. This would allow them to change the difficulty of the game as they see fit. 
 
 ## Interview Recording URL Link
 
